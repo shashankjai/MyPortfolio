@@ -10,8 +10,10 @@ npm run build      # production build in dist/
 npm run preview
 ```
 
-## Deploy (Vercel / Netlify)
-Build command `npm run build`, output directory `dist`. No environment variables needed.
+## Deploy (Vercel / Netlify / Render)
+Build command `npm run build`, output directory `dist`.
+
+For a Render Web Service, use `npm install` as the build command and `npm start` as the start command. The start script serves the production build on Render's `PORT`.
 
 ## Things to fill in
 1. **Resume**: set the Google Drive resume URL in `src/components/resume.js`. The resume links open the shared document.
