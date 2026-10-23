@@ -30,7 +30,7 @@ export default function HeroSection() {
         <img
           src="/images/hero-developer.png" width="1672" height="941" fetchpriority="high"
           alt="Illustration of a developer in a blue hoodie thinking at a laptop, with a code window, a checklist, stacked books, a coffee cup and a sleeping cat"
-          className="fade block h-auto w-full select-none mix-blend-multiply lg:-mr-12 lg:w-[calc(100%+3rem)] xl:-mr-16 xl:w-[calc(100%+4rem)] lg:max-w-none"
+          className="fade block h-auto w-full select-none mix-blend-multiply"
         />
       </div>
       <div className="relative mx-auto w-full max-w-[1600px] px-5 sm:px-8 lg:px-12 xl:px-16">
